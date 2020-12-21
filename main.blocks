@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="=1}}#xtqz(wR.BO)ZJf+">Player</variable><variable type="KIND_SpriteKind" id=".qQpBS}hw$+hBY2(,ut/">Projectile</variable><variable type="KIND_SpriteKind" id="`SLR)VW]rn[faro(M%ow">Food</variable><variable type="KIND_SpriteKind" id="6`y@,m5p!bE@6,-fO!?J">Enemy</variable><variable id="G$awhowqESk5S[JSKSn^">mySprite</variable><variable id="$2ON)qwsTR?8+h+20@.B">mySprite2</variable></variables><block type="pxt-on-start" id="|0TW~-[_hBJ7IkYMO)Y7" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="R6hI@ZnKKs.ghqw~c|B["><field name="VAR" id="G$awhowqESk5S[JSKSn^">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="]M[wMkGv)3q[/GR)g0Db"><value name="img"><shadow type="screen_image_picker" id="vv4z:.XI:/g_E#rP$7)O"><field name="img">img`
+. . f f f f . . 
+. f . f . f . . 
+. f f f f f . . 
+. . f f f . . . 
+. . . f . . f . 
+. f f f f f . . 
+. . . f . . . . 
+. f f . f f . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="x;EeA6q4=V.s2Cj0=Yp("><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="4zCP-gV(fIapyJNaoULC"><value name="sprite"><block type="variables_get" id="(UQ!c{A|G_Q1`X#^5mxG"><field name="VAR" id="G$awhowqESk5S[JSKSn^">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id="w)6s5!QXoHnT[0Fz=RxC"><field name="index">24</field></shadow></value><value name="y"><shadow type="positionPicker" id="FY^qI6O`[]^T7aQt!bt$"><field name="index">38</field></shadow></value><next><block type="game_control_sprite" id="2`qXexb[0zm*jK,-b,_~"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="fm5P~];SJT_z(Y32{-Y*"><field name="VAR" id="G$awhowqESk5S[JSKSn^">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="1N_5!YxU!4LR.wxTy#Q;"><field name="NUM">40</field></shadow></value><value name="vy"><shadow type="math_number" id="5R!..vs3sw|YDR9Baf.]"><field name="NUM">40</field></shadow></value><next><block type="spritesetsetflag" id="KltW|hW~^q~+l4;6+j^K"><field name="flag">SpriteFlag.StayInScreen</field><value name="sprite"><block type="variables_get" id="9Vz:Pz0arXfB=9))9AHo"><field name="VAR" id="G$awhowqESk5S[JSKSn^">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff" id=")y`@GAdRD[AvN+KF-MOz"><field name="on">true</field></shadow></value><next><block type="tilemap_editor" id="!B2*zANec|RURV=X/-sO"><field name="tilemap">tiles.createTilemap(hex`0a00080009090909090909090509090909090909090706080b0404040209090606060b0404040401090606060b040404030909060606090909090909090a0a0a0909090909090909090909090909090909090909`, img`
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+`, [myTiles.transparency16,myTiles.tile1,myTiles.tile3,myTiles.tile6,myTiles.tile9,myTiles.tile14,myTiles.tile18,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile23], TileScale.Sixteen)</field></block></next></block></next></block></next></block></next></block></statement></block></xml>
