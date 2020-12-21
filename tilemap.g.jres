@@ -59,6 +59,16 @@
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true
     },
+    "tile2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREREQAAERERERERAAAREREREREAABEREREREQAAERGBiBERAAAREWGGEREAABERYYYREQAAERGBiBERAAAREREREREAABEREREREQAAERERERERAAAREREREREAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "tile4": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAABEREREREQAAERERERERAAAREREREREAABEREREREQAAEYiIERERAACBEREYEREAAIERERgREQAAEYiIERERAAAREREREREAABERgYEYEQAAERERGBgRAAAREREREREAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
