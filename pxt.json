@@ -2,7 +2,10 @@
     "name": "ftl",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "storyboard": "*",
+        "animation": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0"
     },
     "files": [
         "main.blocks",
